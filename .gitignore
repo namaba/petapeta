@@ -11,3 +11,15 @@
 /log/*
 !/log/.keep
 /tmp
+
+config/database.yml
+config/secrets.yml
+.env
+
+/public/uploads
+/public/assets
+/vendor/bundler
+spec/support/uploads
+
+# redis log
+dump.rdb
