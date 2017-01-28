@@ -1,0 +1,11 @@
+/Users/nanbakensuke/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20170122-4274-mhkf8w.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20170122-4274-1n0r29s
